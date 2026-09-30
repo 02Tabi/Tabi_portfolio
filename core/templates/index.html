@@ -1,0 +1,452 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Mohammed Tabi Malik - Portfolio</title>
+  <meta content="Portfolio of Mohammed Tabi Malik, Software Developer and UI/UX Designer" name="description">
+  <meta content="Software Developer, Data Analyst, UX/UI, Python, Django" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'img/favicon.png' %}" rel="icon">
+  <link href="{% static 'img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="{% static 'css/main.css' %}" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="{% static 'img/my-profile-img.jpg' %}" alt="Mohammed Tabi Malik" class="img-fluid rounded-circle" style="aspect-ratio: 1/1; object-fit: cover;">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <h1 class="sitename">Mohammed T. Malik</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="https://www.linkedin.com/in/malik-tabi-mohammed-a8536b37a/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      <a href="#" class="github"><i class="bi bi-github"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+      <img src="{% static 'img/hero-bg.jpg' %}" alt="" data-aos="fade-in" class="">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h2>Mohammed Tabi Malik</h2>
+        <p>I'm a <span class="typed" data-typed-items="Backend Developer (Python), Django Developer, Product Designer (Figma), React.js Developer">Backend Developer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+      </div>
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>Computer Science graduate seeking an entry-level Software Developer position to apply strong programming and problem-solving skills in a fast-paced tech environment. Passionate about building user-centric solutions and contributing to effective operations.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-4">
+            <img src="{% static 'img/my-profile-img.jpg' %}" class="img-fluid" alt="Mohammed Tabi Malik">
+          </div>
+          <div class="col-lg-8 content">
+            <h2>Backend Developer (Python) | Django | Product Designer (Figma) | React.js</h2>
+            <p class="fst-italic py-3">
+              Committed to continuous learning and skill development, with a focus on building accessible, data-driven applications.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>0558185367</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Accra – Kasoa, Ghana</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Relocation:</strong> <span>Open to Opportunities</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>BSc. Computer Science</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>ayamtabi233@gmail.com</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+            <p class="py-3">
+              I blend technical software development with strong client engagement skills, honed through direct customer service experience in the banking sector. I am ready to relocate and available for remote work opportunities.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section><!-- /About Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>A blend of front-end design, back-end logic, and data analysis.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row skills-content skills-animation">
+          <div class="col-lg-6">
+            <div class="progress">
+              <span class="skill"><span>Product Design (Figma)</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill"><span>HTML & CSS</span> <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill"><span>Python & Django</span> <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="progress">
+              <span class="skill"><span>Data Analysis & Excel</span> <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill"><span>JavaScript</span> <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+            <div class="progress">
+              <span class="skill"><span>Data Entry & Management</span> <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Skills Section -->
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <p>A summary of my professional experience, education, and technical skill set.</p>
+        
+        <!-- Add this Download Button block -->
+        <div class="mt-4">
+          <a href="{% static 'docs/malik_resume.pdf' %}" download class="btn btn-primary" style="border-radius: 50px; padding: 10px 24px; font-weight: 500;">
+            <i class="bi bi-download me-2"></i> Download My Resume
+          </a>
+        </div>
+        <!-- End Download Button -->
+
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Summary</h3>
+            <div class="resume-item pb-0"> 
+              <h4>Mohammed Tabi Malik</h4>
+              <p><em>Recent Computer Science student passionate about building user-centric solutions and managing data accurately in fast-paced environments.</em></p>
+              <ul>
+                <li>Accra – Kasoa, Ghana</li>
+                <li>0558185367</li>
+                <li>ayamtabi233@gmail.com</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>BSc. Computer Science</h4>
+              <h5>Expected Graduation: Nov 2025</h5>
+              <p><em>Central University – Miotso Campus, Tema Community 25, Ghana</em></p>
+              <p>Studying core computer science principles including software engineering, data structures, and algorithms.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Intern – Customer Service & Data Entry</h4>
+              <h5>August 2024 – September 2024</h5>
+              <p><em>Agricultural Development Bank (ADB), Kasoa Branch, Ghana</em></p>
+              <ul>
+                <li>Supported customer service activities, including client inquiries and engagement.</li>
+                <li>Performed data entry and accurate record management for daily banking operations.</li>
+                <li>Assisted with data verification and reporting for internal audits and account tracking.</li>
+                <li>Collaborated with banking staff to ensure smooth branch workflow and client satisfaction.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>National Service Personnel (Back End Developer / UX)</h4>
+              <h5>January 2026 - Present</h5>
+              <p><em>Prudential Bank Ghana, RRC Accra</em></p>
+              <ul>
+                <li>Develop, maintain, and troubleshoot backend APIs, facilitating secure data integrations between core banking systems and third-party payment gateways.</li>
+                <li>Analyze server logs to systematically diagnose and resolve complex backend transaction failures, ensuring system reliability and seamless data flow.</li>
+                <li>Enhance system security and performance by refactoring user authorization mechanisms, active session management, and role-based access controls using Django.</li>
+                <li>Provide UX/UI design support and utilize data analysis techniques to drive operational efficiency and improve internal reporting.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Resume Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section light-background">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>A selection of my recent projects spanning web development, data visualization, and UI/UX design.</p>
+      </div>
+
+      <div class="container">
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-web">Web Dev</li>
+            <li data-filter=".filter-design">UX/UI</li>
+            <li data-filter=".filter-data">Data</li>
+          </ul>
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web filter-data">
+              <div class="portfolio-content h-100">
+                <img src="{% static 'img/portfolio/tastychef.png' %}" class="img-fluid" alt="Tastychef">
+                <div class="portfolio-info">
+                  <h4>Tastychef Data Dashboard</h4>
+                  <p>React.js</p>
+                  <a href="https://tastychef.vercel.app/" target="_blank" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="{% static 'img/portfolio/homecare.png' %}" class="img-fluid" alt="Home Care UI">
+                <div class="portfolio-info">
+                  <h4>Home Care Website</h4>
+                  <p>Figma UI/UX Design</p>
+                  <a href="https://www.figma.com/design/YHo3vLTKetDGFnCxSAaBGk/Home-care" target="_blank" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="{% static 'img/portfolio/foodapp.png' %}" class="img-fluid" alt="Food Ordering App">
+                <div class="portfolio-info">
+                  <h4>Food Ordering App</h4>
+                  <p>Figma UI/UX Design</p>
+                  <a href="https://www.figma.com/design/TQZ34KHcCXbM8QyxEj6LUm/Food-ordering-app" target="_blank" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+              <div class="portfolio-content h-100">
+                <img src="{% static 'img/portfolio/conficare.png' %}" class="img-fluid" alt="Conficare App">
+                <div class="portfolio-info">
+                  <h4>Client Management App</h4>
+                  <p>WordPress (Conficare)</p>
+                  <a href="https://conficare.wordpress.com/store-page-2/" target="_blank" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web filter-data">
+              <div class="portfolio-content h-100">
+                <img src="{% static 'img/portfolio/xflow.png' %}" class="img-fluid" alt="XFlow Expense Tracker">
+                <div class="portfolio-info">
+                  <h4>XFlow Expense Tracker</h4>
+                  <p> Python | Django API</p>
+                  <a href="https://xflowexpensetracker.vercel.app" target="_blank" title="Live Preview" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <div class="portfolio-content h-100">
+                <img src="{% static 'img/portfolio/booking.jpg' %}" class="img-fluid" alt="Slot Booking Platform">
+                <div class="portfolio-info">
+                  <h4>Slot Booking Platform</h4>
+                  <p>Figma UI/UX Design</p>
+                  <a href="https://www.figma.com/design/FPNc7IsUjZ4U0m5j2kT9rb/booking-project?t=LuLx9eqruwEujorx-0" target="_blank" title="Figma Design" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a href="#" target="_blank" title="Figma Design" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+    </section><!-- /Portfolio Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>Combining technical proficiency with strong customer service and operations skills.</p>
+      </div>
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"><i class="bi bi-briefcase"></i></div>
+            <div>
+              <h4 class="title">Software Development</h4>
+              <p class="description">Building robust applications, architecting secure backend APIs, and managing server-side logic using Python and Django.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon flex-shrink-0"><i class="bi bi-card-checklist"></i></div>
+            <div>
+              <h4 class="title">Product Designer</h4>
+              <p class="description">Creating intuitive, user-centric interfaces and responsive layouts in Figma.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon flex-shrink-0"><i class="bi bi-bar-chart"></i></div>
+            <div>
+              <h4 class="title">Data Analysis</h4>
+              <p class="description">Visualizing trends and patterns using Python and Excel to build interactive data dashboards.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Services Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Available for immediate employment, remote work, and relocation opportunities.</p>
+      </div>
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-5">
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Location</h3>
+                  <p>Accra – Kasoa, Ghana</p>
+                </div>
+              </div>
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Me</h3>
+                  <p>0558185367</p>
+                </div>
+              </div>
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Me</h3>
+                  <p>ayamtabi233@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="#" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                  <button type="submit">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Mohammed T. Malik</strong> <span>All Rights Reserved</span></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/php-email-form/validate.js' %}"></script>
+  <script src="{% static 'vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'vendor/typed.js/typed.umd.js' %}"></script>
+  <script src="{% static 'vendor/purecounter/purecounter_vanilla.js' %}"></script>
+  <script src="{% static 'vendor/waypoints/noframework.waypoints.js' %}"></script>
+  <script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'vendor/imagesloaded/imagesloaded.pkgd.min.js' %}"></script>
+  <script src="{% static 'vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+
+  <!-- Main JS File -->
+  <script src="{% static 'js/main.js' %}"></script>
+
+</body>
+</html>
